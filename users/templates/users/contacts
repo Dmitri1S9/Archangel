@@ -1,0 +1,11 @@
+<section class="contacts">
+    <h1>Contacts</h1>
+    
+    <div class="contact-info">
+        <p>Phone number:</p>
+        <p>Address:</p>
+    </div>
+
+    <div class="map">
+    </div>
+</section>
