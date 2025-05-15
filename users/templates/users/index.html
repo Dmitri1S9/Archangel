@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KiyoShop - Cosmic Experience</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="cosmic-background" id="cosmicBackground"></div>
+    
+    <div class="content-wrapper">
+        <header>
+            <div class="header-top">
+                <div class="logo">
+                    <span class="logo-symbol">
+                        <span class="logo-man left">🧑‍🚀</span>
+                        <span class="logo-earth">🌍</span>
+                        <span class="logo-man right">🧑‍🚀</span>
+                    </span>
+                    KiyoShop
+                </div>
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search products...">
+                </div>
+                <div class="user-actions">
+                    <a href="#" class="login-btn">
+                        <i class="fas fa-user"></i>
+                        Login
+                    </a>
+                    <a href="#" class="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                        Cart (<span id="cart-count">0</span>)
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#categories" class="nav-link"><i class="fas fa-list"></i> Categories</a></li>
+                <li><a href="#products" class="nav-link"><i class="fas fa-box-open"></i> Products</a></li>
+                <li><a href="#sales" class="nav-link"><i class="fas fa-tag"></i> Sales</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="home" class="content-section active">
+                <div class="container">
+                    <div class="hero">
+                        <h1>Welcome to KiyoShop</h1>
+                        <p>Experience shopping like never before!</p>
+                        <button class="btn">Explore our Universe!</button>
+                    </div>
+                    <div class="products-grid"></div>
+                </div>
+            </section>
+
+            <section id="categories" class="content-section">
+                <div class="container">
+                    <div class="categories"></div>
+                </div>
+            </section>
+
+            <section id="products" class="content-section">
+                <div class="container">
+                    <div class="products-grid"></div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-column">
+                        <h4>About KiyoShop</h4>
+                        <p>Exploring the universe of shopping since 2025. We bring you the best products from across the world with lightning-fast delivery!</p>
+                        <div class="social-links" style="margin-top: 15px;">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#products">Products</a></li>
+                            <li><a href="#sales">Sales</a></li>
+                            <li><a href="#contacts">Support</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Contacts</h4>
+                        <ul>
+                            <li><i class="fas fa-map-marker-alt"></i> Vienna</li>
+                            <li><i class="fas fa-phone"></i> + 777777777</li>
+                            <li><i class="fas fa-envelope"></i> support@kiyoshop.space</li>
+                        </ul>
+                        <div class="payment-methods" style="margin-top: 20px;">
+                            <i class="fab fa-cc-visa" style="font-size: 2em; margin-right: 10px;"></i>
+                            <i class="fab fa-cc-mastercard" style="font-size: 2em; margin-right: 10px;"></i>
+                            <i class="fab fa-cc-paypal" style="font-size: 2em;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>© 2025 KiyoShop. All rights reserved</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
